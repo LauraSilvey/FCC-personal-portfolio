@@ -6,6 +6,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	color: #494C4E;
 	
 }
 
@@ -24,6 +25,20 @@ body {
 	flex-direction: row;
 	justify-content: flex-end;
 	height: 50px;
+	font-family: Arial;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.logo {
+	align-self: basis;
+	flex-grow: 1;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.logo-link {
+	color: #BE6E46;
 }
 
 ul.nav-list {
@@ -34,7 +49,14 @@ ul.nav-list {
 
 .nav-link {
 	text-decoration: none;
-	color: black;
+	color: #494C4E;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.nav-link:hover {
+	border-bottom: solid 2px #BE6E46;
 }
 
 .list-item {
@@ -50,11 +72,11 @@ ul.nav-list {
 .main-doc {
   position: relative;
   overflow-y: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/*.section-title {
-	text-align: center;
-}*/
+
 
 /*
 *
@@ -65,11 +87,18 @@ ul.nav-list {
 .welcome {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	height: 100vh;
-	overflow: scroll;
 }
+
+.intro {
+
+	font-size: 35px;
+	font-family: Georgia;
+	line-height: 55px;
+	text-size-adjust: 100%;
+	font-weight: normal;
+}
+
 
 /*
 *
@@ -103,14 +132,17 @@ img {
 *
 */
 
-.contact{
+.contact {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-top: solid 1px #E5E5E5;
+	border-bottom: solid 1px #E5E5E5;
 }
 
 .fa {
-	padding: 20px;
+	padding: 25px 20px 50px 20px; 
+	color: #BE6E46;
 }
 
 a{
