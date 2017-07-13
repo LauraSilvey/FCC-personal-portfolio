@@ -12,69 +12,63 @@
 
 <body> 
   <!-- navbar -->
-  <nav id="navbar">
-  	<ul>
-  	  <li><a href="#">Home</a></li>
-  	  <li><a href="#">Projects</a></li>
-  	  <li><a href="#">Contact</a></li>
+  <nav class="navbar" id="navbar">
+  	<ul class="nav-list">
+  	  <li class="list-item"><a class="nav-link" href="#welcome-section">Home</a></li>
+  	  <li class="list-item"><a class="nav-link" href="#projects">Projects</a></li>
+  	  <li class="list-item"><a class="nav-link" href="#contact">Contact</a></li>
   	</ul>
   </nav>
-  <!-- welcome section -->
-  <section id="welcome-section">
-  	<h1>Laura Silvey</h1>
-  </section>
-  <!-- projects section -->
-  <section id="projects">
-		<figure id="project-tile">
-		  <img src="" alt="" width="" height="">
-		  <figcaption></figcaption>
-		</figure>
-		<figure id="project-tile">
-		  <img src="" alt="" width="" height="">
-		  <figcaption></figcaption>
-		</figure>
-		<figure id="project-tile">
-		  <img src="" alt="" width="" height="">
-		  <figcaption></figcaption>
-		</figure>
-		<figure id="project-tile">
-		  <img src="" alt="" width="" height="">
-		  <figcaption></figcaption>
-		</figure>
-		<figure id="project-tile">
-		  <img src="" alt="" width="" height="">
-		  <figcaption></figcaption>
-		</figure>
-		<figure id="project-tile">
-		  <img src="" alt="" width="" height="">
-		  <figcaption></figcaption>
-		</figure>
-  </section>
-  <!-- contact section -->
-  <section>
-    <div class="footer-links">
-      <a target="blank" href="https://github.com/LauraSilvey" id="profile-link">
-        <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-      </a>
-      <a target="blank" href="https://codepen.io/lsilvey/" id="profile-link">
-        <i class="fa fa-codepen fa-lg" aria-hidden="true"></i>
-      </a>
-      <a target="blank" href="https://www.freecodecamp.com/laurasilvey" id="profile-link">
-        <i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i>
-      </a>
-    </div>
-  </section>
+	  <!-- welcome section -->
+	<main class="main-doc">
+	  <section class="welcome" id="welcome-section">
+	  	<h1>Laura Silvey</h1>
+	  	<p>Web Developer</p>
+	  </section>
+	  <!-- projects section -->
+	  <section class="projects" id="projects">
+	  	<h3 class="section-title">Projects</h3>
+	  	<div class="section-tiles">
+				<figure class="project-tile">
+				  <img src="https://raw.githubusercontent.com/LauraSilvey/FCC-personal-portfolio/master/tribute_page_img.png" alt="tribute image">
+				  <figcaption></figcaption>
+				</figure>
+				<figure class="project-tile">
+				  <img src="https://raw.githubusercontent.com/LauraSilvey/FCC-personal-portfolio/master/survey_form_img.png" alt="survey form image" >
+				  <figcaption></figcaption>
+				</figure>
+				<figure class="project-tile">
+				  <img src="https://raw.githubusercontent.com/LauraSilvey/FCC-personal-portfolio/master/product_page_img.png" alt="product page image">
+				  <figcaption></figcaption>
+				</figure>
+				<figure class="project-tile">
+				  <img src="https://raw.githubusercontent.com/LauraSilvey/FCC-personal-portfolio/master/tech_doc_img.png" alt="tech doc image">
+				  <figcaption></figcaption>
+				</figure>
+			</div>
+	  </section>
+	  <!-- contact section -->
+	  <section class="contact" id="contact">
+	  	<h3 class="section-title">Contact</h3>
+	    <div class="contact-links">
+	      <a target="blank" href="https://github.com/LauraSilvey" id="profile-link">
+	        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+	      </a>
+	      <a target="blank" href="https://codepen.io/lsilvey/" id="profile-link">
+	        <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+	      </a>
+	      <a target="blank" href="https://www.freecodecamp.com/laurasilvey" id="profile-link">
+	        <i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i>
+	      </a>
+	    </div>
+	  </section>
 
-
-
-
-
-
- <!--  footer -->
-  <footer class="footer">
-    <p class="copyright">Created by<strong> Laura Silvey</strong></p>
-  </footer> 
-  <!-- <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script> -->
+	 <!--  footer -->
+	  <footer class="footer">
+	    <p class="copyright">&copy; 2017 Laura Silvey. All rights reserved.</strong></p>
+	  </footer> 
+  </main>
+<!--   <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script> -->
 </body>
 
 </html>
