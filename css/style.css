@@ -26,8 +26,8 @@ body {
 	justify-content: flex-end;
 	height: 50px;
 	font-family: Arial;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px 20px 0 20px;
+
 }
 
 .logo {
@@ -76,8 +76,6 @@ ul.nav-list {
   padding-right: 20px;
 }
 
-
-
 /*
 *
 * welcome section
@@ -91,11 +89,9 @@ ul.nav-list {
 }
 
 .intro {
-
 	font-size: 35px;
 	font-family: Georgia;
 	line-height: 55px;
-	text-size-adjust: 100%;
 	font-weight: normal;
 }
 
@@ -111,6 +107,7 @@ ul.nav-list {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 0px;
+	margin-bottom: 50px;
 }
 
 img {
@@ -123,7 +120,7 @@ img {
 .section-tiles {
   display: flex;
   flex-flow: row wrap;
-  justify-conent: center;
+  justify-content: center;
 }
 
 .tech-list {
@@ -177,4 +174,47 @@ a{
 .copyright {
 	text-align: center;
 	font-size: 12px;
+}
+
+/*
+*
+* media queries
+*
+*/
+
+/* TABLET */
+@media(min-width:768px) and (max-width:991px) {
+ /* .navbar {
+  	padding-top: 30px;
+  } */
+
+  .intro {
+  	text-align: center;
+  }
+
+  .welcome {
+  	justify-content: center;
+  }
+
+  .section-title {
+    margin: 0 0 30px 0;
+  }
+
+  .contact>h2 {
+  	padding-top: 20px
+  }
+
+}
+
+/* DESKTOP & LAPTOP */
+
+@media(min-width:992px) {
+	.welcome {
+		justify-content: center;
+	}
+
+	.intro {
+		text-align: center;
+	}
+
 }
